@@ -1,0 +1,152 @@
+@charset "UTF-8";
+
+@font-face { font-family: 'NanumBarunGothic';
+src: url('/fonts/NanumBarunGothic.eot');
+src: url('/fonts/NanumBarunGothic.eot') format('embedded-opentype');}
+
+#wrap {
+    min-height: 100vh;
+    position: relative;
+    width: 100%;
+}
+
+footer {
+	width: 100%;
+	bottom: 0px;
+	height: 200px;
+	position: absolute;
+}
+
+.container {
+	padding-bottom: 200px; /* footer의 height값과 동일 */
+}
+
+a{
+	text-decoration: none !important;
+	color:white;
+}
+a:hover{
+	color: #82EB5A;
+}
+
+.navbar-brand{
+	margin: 0px 40px 0px 15px;
+}
+
+.category{
+	margin: 0px 10px;
+}
+
+.nav-menu{
+	font-size: 0.9rem;
+}
+
+.form-select{
+	width: 100%;
+	padding: 6px;
+	border-radius: 5px;
+	border: 1px solid silver;
+	
+}
+
+.detail-btn{
+	margin: 0px 5px;
+	padding: 8px 20px;
+	border-radius: 20px;
+}
+
+.button-black{
+	margin: 10px 5px;
+	padding: 8px 25px;
+	background:black;
+	color: white;
+	border-radius: 20px;
+	border: 3px solid black;
+	outline: 0px;
+	text-decoration: none;
+}
+
+.button-zipcode{
+	margin-left:10px;
+	padding: 5px 15px;
+	background:black;
+	color: white;
+	border-radius: 20px;
+	border: 3px solid black;
+	outline: 0px;
+	text-decoration: none;
+	font-size:0.9rem;
+}
+
+.index-title{
+	padding: 10px 0px;
+}
+
+.pagination{
+	margin: 50px 0px;
+}
+
+.member-title, .login-button{
+	margin: 50px 0px;
+}
+.member_update,
+.member-update-button{
+	margin-bottom: 40px;
+}
+
+.remember{
+	margin-left: 30px;
+}
+
+#index-board-date{
+	font-size: 0.8rem;
+}
+
+.save-button{
+	margin-bottom:100px;
+}
+.button-black:hover{
+	color: #82EB5A;
+}
+
+#collapsibleNavbar{
+	display:flex;
+	justify-content:right;
+}
+p, a, h1, h2, h3, h4, h5, h6 {
+    transform: skew(-0.1deg);
+}
+body {font-family: 'NanumBarunGothic', 'serif';}
+
+.container{
+	margin-top:20px;
+}
+
+
+.table td, .table th, .table tr{
+	padding: 15px;
+}
+
+#replytime{
+	margin: 0px 10px;
+	font-size: 0.8em;
+}
+
+.reply-content{
+	margin: 5px 0px;
+}
+
+.footer{
+	background-color:black;
+}
+.foot-content{
+	margin-top: 10px;
+	padding: 40px 0px 20px 0px;
+	color: ghostwhite;
+	font-size: 0.8rem;
+}
+
+.id_ok{color:#0064FF; display: none;}
+.id_already{color:#FF1E9D; display: none;}
+
+   

@@ -1,0 +1,36 @@
+server:
+  port: 8083
+  servlet:
+    context-path: /
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true    
+spring:
+  datasource:
+    url: jdbc:oracle:thin:@127.0.0.1:1521:XE
+    username: hr
+    password: 1234
+    driver-class-name: oracle.jdbc.OracleDriver
+  mvc:
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp
+        
+  jpa:
+    open-in-view: true
+    hibernate:
+      ddl-auto: update
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+      use-new-id-generator-mappings: false
+    show-sql: true
+    properties:
+      hibernate.format_sql: true
+
+  jackson:
+    serialization:
+      fail-on-empty-beans: false
+
+cos:
+  key: hr1234
